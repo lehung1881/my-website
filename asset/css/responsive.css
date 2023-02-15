@@ -1,0 +1,109 @@
+/* Tablet and mobile */
+@media (max-width: 1023px){
+    .my-body__container{
+        flex-direction: column;
+    }
+    .my-body__imgs {
+        padding: 36px;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .my-body__img{
+        padding-top: 100%;
+        width: 100%;
+        overflow: unset !important;
+    }
+    
+    .my-about__seft{
+        flex-direction: column;
+    }
+    .my-about__seft-cv{
+        margin-top: 36px;
+    }
+}
+
+/*talet*/
+
+@media (min-width: 740px) and (max-width: 1023px){
+    .my-body__content {
+        width: 500px;
+        margin: 30px 71px 40px;
+    }
+}
+/* Mobile */
+
+@media (max-width: 739px){
+    .mgb-16{
+        margin-bottom: 16px;
+    }
+    .mgt-16{
+        margin-top: 16px;
+    }
+    .header-container{
+        height: 60px;
+    }
+    .header-logo{
+        text-align: center;
+    }
+    .header-menu__list{
+        display: none;
+    }
+    .my-body__imgs{
+        height: 500px;
+        overflow: unset;
+    }
+    .my-body__content{
+        width: 100%;
+        margin: 0;
+        padding: 20px 36px;
+    }
+    .my-body__container{
+        margin: 0;
+        height: auto;
+    }
+    .my-about__seft {
+        margin: 0 4px;
+        padding-top: 450px;
+        background: none;
+    }
+    .my-about__seft{
+        text-align: center;
+    }
+    .progress-box{
+        width: 100%;
+        margin-top: 6px;
+    }
+    .my-info__btn{
+        min-width: 110px;
+    }
+    .my-info__edu{
+        margin: 0 15px;
+    }
+    .my-info__edu-year {
+        width: 20%;
+    }
+    .my-info__edu-content{
+        flex: 1;
+    }
+    .circle::before {
+        left: 30%;
+        top: 40px;
+    }
+    .my-info__edu-list::before{
+        left: 30%;
+    }
+    .mobile-center{
+        text-align: center;
+    }
+    .bottom-line-m{
+        margin-bottom: 64px;
+    }
+    .center-m{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-project{
+        padding: 0 12px;
+    }
+}

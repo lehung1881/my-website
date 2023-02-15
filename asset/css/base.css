@@ -1,0 +1,20 @@
+:root{
+    --white: #ffffff;
+    --header-height: 120px;
+    --text-color: #777777;
+    --btn-color:#e8e8e8;
+    --bg-color:#f9f9f9;
+    --btn-hover-color:#7b94fe;
+    --heading-color: #222;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
