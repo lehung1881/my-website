@@ -1,5 +1,5 @@
 /* Tablet and mobile */
-@media (max-width: 1023px){
+@media (max-width: 1024px){
     .my-body__container{
         flex-direction: column;
     }
@@ -28,6 +28,9 @@
     .my-body__content {
         width: 500px;
         margin: 30px 71px 40px;
+    }
+    .progress-box{
+        width: 100%;
     }
 }
 /* Mobile */
@@ -105,5 +108,8 @@
     }
     .mobile-project{
         padding: 0 12px;
+    }
+    .progress-mobile{
+        text-align: left;
     }
 }
